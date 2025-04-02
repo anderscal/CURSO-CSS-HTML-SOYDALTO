@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333;
+    color: #eee;
+    font-family: sans-serif;
+
+}
+
+h2 {
+    text-align: center;
+    font-family: inherit;
+    margin-bottom: 10px;
+    font-weight: 100;
+    font-size: 22px;
+    padding: 10px;
+
+}
+
+form {
+    /* background-color: darkslategray; */
+    background-color: transparent;
+    max-width: 450px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 0px 0px 55px #0009;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.form-input {
+    padding: 6px 20px;
+}
+
+input,
+textarea,
+select {
+    background-color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    margin: 5px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    border-left: 4px solid #c59f05;
+    color: #eee;
+    margin-top: 4px;
+    font: inherit;
+
+}
+
+textarea {
+    min-width: 100%;
+    resize: none;
+    /* min-height: 100px;
+    max-height: 100px; */
+    /* controla el maximo y minimo de lo que se 
+    escribe para que aparezca el scroll, es mas
+    optimo hacerlo en el txt con rows */
+    font-family: inherit;
+}
+
+label {
+    font-family: inherit;
+    line-height: 2;
+    font-size: 0.9em;
+    margin-left: 8px;
+}
+
+#checkbox {
+    width: auto;
+    height: 10px;
+}
+
+option {
+    background-color: #333;
+}
+
+fieldset {
+    font-family: inherit;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    padding: 0px 20px 20px 20px;
+    margin: 20px;
+}
+
+legend {
+    padding: 0 8px;
+    color: #777;
+}
+
+a {
+    color: rgb(47, 83, 241);
+    text-decoration: none;
+
+}

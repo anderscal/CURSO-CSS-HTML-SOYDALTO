@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.box--blue {
+    background-color: brown;
+    top: -20px;
+    left: 40px;
+}

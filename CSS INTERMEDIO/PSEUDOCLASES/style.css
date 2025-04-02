@@ -1,0 +1,26 @@
+/* se usan con :: */
+h1::first-letter{
+color: aquamarine;
+font-size: 36px;
+}
+
+P::first-line{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+input::placeholder{
+    color: brown;
+}
+
+li::marker{
+    color: chartreuse;
+}
+
+/* despues after */
+li::before{
+    content: 'Elemento: ' ;
+    color: brown;
+    font-weight: bold;
+}
+

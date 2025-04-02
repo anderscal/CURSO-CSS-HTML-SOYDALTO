@@ -1,0 +1,20 @@
+div{
+    background: red;
+    width: 500px;
+    margin: auto ;
+    text-align: center;
+    /* bordes de caja para verlos deber ser border-style */
+ 
+}
+ 
+
+div{
+    /* border-width: 4px;
+    border-color: black;
+    border-style: solid; */
+    /* acortar lineas de borde */
+    border-top: 3px black solid;
+    border-left: 3px yellow solid;
+    border-radius: 4px 6px 8px 10px;
+
+}

@@ -1,0 +1,44 @@
+/* dar estilo con atributo src */
+img[src="IMG/cas.jpg"] {
+    width: 30%;
+}
+
+/* dar estilo solo con la extension de la foto */
+img[src$="jpg"] {
+    border: solid 3px brown;
+}
+
+/* dar estilo solo con la inicial */
+img[src^="IMG/cas"] {
+    border-radius: 7px;
+}
+
+/* dar estilo por hijo directo */
+/* esta em despues de li directamente */
+li>em {
+    color: blueviolet;
+}
+
+/* si estuviera dentro de otros mas como un ul seria */
+
+ul strong {
+    color: chocolate;
+}
+
+/* selector descendiente */
+ul li {
+    color: darkkhaki;
+}
+
+/* selector adayacente especifico
+da estilo a algo unicamente a lo que esta despues de */
+
+h1 + p {
+    color: brown;
+}
+
+/* selector adayacente general
+da estilo a algo unicamente a todo loi que esta despues de */
+h1 ~ p {
+    color:darkgreen;
+}

@@ -1,0 +1,16 @@
+/* dar estilo por elemento, afecta todo 
+lo que tiene la etiqueta */
+li{
+    color: black;
+}
+/* dar estilo a elemento unico dentro de los elementos
+se debe poner una clase en el index para con .clase modificar */
+.harina,.huevos{
+    color: red;
+}
+/* dar estilo por id: # 
+se da el id= en el index, solo un id para un solo element*/
+
+#ingrediente-secreto{
+    color: blueviolet;
+}

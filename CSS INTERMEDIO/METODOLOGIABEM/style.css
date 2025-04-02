@@ -1,0 +1,20 @@
+.lista{
+    border: 2px solid;
+}
+
+.lista__item{
+    margin: 5px;
+    color: green;
+    list-style: square;
+}
+
+.item--rojo{
+    color: red;
+}
+
+.item--negrita{
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: 900;
+    list-style: circle;
+}

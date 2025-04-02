@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+}
+
+.box-default{
+    padding: 25px;
+    border: 10px black solid;
+}
+.box-new{
+    box-sizing: border-box; 
+    /* controlar el tama;i de lo que se lea agg sin aunmentar
+    la medida establecida */
+    padding: 25px;
+    border: 10px black solid;
+}
